@@ -4,6 +4,7 @@ plotly
 mysql-connector-python
 python-dotenv
 
+| :--- | :--- | :--- |
 |Package | Purpose in the Project |
 |streamlit | Runs the interactive dashboard.|
 |pandas | Handles data manipulation and processing after SQL queries.|
