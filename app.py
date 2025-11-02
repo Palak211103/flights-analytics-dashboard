@@ -6,7 +6,7 @@ import plotly.express as px
 db = DB()               #object to access methods of database class
 st.sidebar.title('Flights Analytics')
 user_option = st.sidebar.selectbox('Menu',['Select One','Check Flights', 'Analytics'])
-if user_option =='Check Flights':
+if user_option =='Check Flights':    
     st.title('Check Flights')
 
     col1,col2 = st.columns(2)
@@ -52,4 +52,5 @@ elif user_option =='Analytics':
     st.plotly_chart(fig, theme ="streamlit", use_container_width = True)
     
 else: 
+
     st.title('The Project')
