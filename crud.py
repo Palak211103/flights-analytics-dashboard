@@ -13,7 +13,7 @@ try :
     )
     mycursor = conn.cursor()
     print('Connection established')
-except mysql.connector.errors.InterfaceError as err:
+except mysql.connector.errors.InterfaceError as err:   
     print('Connection error')
     print(err)
     exit()
@@ -60,4 +60,5 @@ conn.commit()
 # mycursor.execute("SELECT * FROM airport ")
 # data = mycursor.fetchall()
 # print(data)
+
 
