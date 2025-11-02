@@ -4,9 +4,9 @@ plotly
 mysql-connector-python
 python-dotenv
 
-Packag|Purpose in the Project
-streamlit|Runs the interactive dashboard.
-pandas |Handles data manipulation and processing after SQL queries.
-plotly |Creates the interactive bar and line charts for visualization.
-mysql-connector-python |The library used for connecting Python code to your MySQL database.
-python-dotenv|"Crucial for securely loading your DB_HOST, DB_USER, etc., from a hidden .env file, preventing credentials from being exposed on GitHub.
+|Package | Purpose in the Project |
+|streamlit | Runs the interactive dashboard.|
+|pandas | Handles data manipulation and processing after SQL queries.|
+| Plotly | Creates interactive bar and line charts for visualization.|
+|mysql-connector-python |The library used for connecting Python code to your MySQL database.|
+|python-dotenv | Crucial for securely loading your DB_HOST, DB_USER, etc., from a hidden .env file, preventing credentials from being exposed on GitHub.|
