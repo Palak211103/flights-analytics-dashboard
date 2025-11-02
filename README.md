@@ -1,5 +1,17 @@
 # Flights Analytics Dashboard
-This project analyzes flight booking data using SQL, Python, and Streamlit to create an interactive dashboard. Users can explore airline-wise view availability, and switch between “Check Flights” and “Analytics” modes using visual charts for insights.
+This project analyzes flight booking data using SQL, Python, and Streamlit to create an interactive dashboard. Users can explore an airline-wise view of availability and switch between “Check Flights” and “Analytics” modes, utilizing visual charts for insights.
+
+# Project Structure
+
+app.py: The main Streamlit application file.
+
+crud.py: Contains functions for running Create, Read, Update, Delete (CRUD) operations on the database.
+
+dbhelper.py: Contains the logic for connecting to MySQL using credentials loaded from the .env file.
+
+requirements.txt: Lists all Python package dependencies.
+
+dataset: https://docs.google.com/spreadsheets/d/1xuKHmRuCiCXIa1m2f7cX8PqLTTQXVtV1dky0zgnrSlU/edit?gid=1923842933#gid=1923842933
 
 # Features
 * **Interactive Dashboard:** Built with Streamlit for a fast, responsive user interface.
@@ -59,7 +71,7 @@ This project connects to a MySQL database to execute the analytical queries defi
    
  
 
-### Running the Dashboard
+# Running the Dashboard
 
 Start the application by running the Streamlit command in your terminal:
 
@@ -67,14 +79,5 @@ Start the application by running the Streamlit command in your terminal:
 streamlit run app.py
 The dashboard will automatically open in your web browser, typically at http://localhost:8501.
 
-# Project Structure
-
-app.py: The main Streamlit application file.
-
-crud.py: Contains functions for running Create, Read, Update, Delete (CRUD) operations on the database.
-
-dbhelper.py: Contains the logic for connecting to MySQL using credentials loaded from the .env file.
-
-requirements.txt: Lists all Python package dependencies.
 
 
