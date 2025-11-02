@@ -14,7 +14,7 @@ This project analyzes flight booking data using SQL, Python, and Streamlit to cr
 | *Frontend/App* | Streamlit | Interactive web application and dashboard framework. |
 | *Backend/Logic* | Python | Core programming language. |
 | *Database* | SQL  | Data storage, retrieval, and analytical querying. |
-| *Visualization*  | Creating the interactive bar and line charts. |
+| *Visualization*  | Plotly | Creating the interactive bar and line charts. |
 
 ---
 
