@@ -40,8 +40,11 @@ To run this project locally, you need the following installed:
     python -m venv venv
     source venv/bin/activate  # On macOS/Linux
     .\venv\Scripts\activate   # On Windows
+
+3. *Install dependencies:*
+   pip install -r requirements.txt
     
-4. *Database setup*
+5. *Database setup*
 
 This project connects to a MySQL database to execute the analytical queries defined in crud.py.
 
@@ -62,3 +65,16 @@ Start the application by running the Streamlit command in your terminal:
 
 ```bash
 streamlit run app.py
+The dashboard will automatically open in your web browser, typically at http://localhost:8501.
+
+# Project Structure
+
+app.py: The main Streamlit application file.
+
+crud.py: Contains functions for running Create, Read, Update, Delete (CRUD) operations on the database.
+
+dbhelper.py: Contains the logic for connecting to MySQL using credentials loaded from the .env file.
+
+requirements.txt: Lists all Python package dependencies.
+
+
