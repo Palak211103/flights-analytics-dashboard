@@ -67,7 +67,7 @@ This project connects to a MySQL database to execute the analytical queries defi
         * DB_HOST (e.g., localhost or an IP address)
         * DB_USER
         * DB_PASSWORD
-        * DB_NAME (The name of your flight database)
+        * DB_NAME (The name of your flight database)   
    
  
 
